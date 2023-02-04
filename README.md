@@ -16,6 +16,7 @@ def check_product_availability():
     # You need to change the url to the product you want 
     product_url = 'https://www.amazon.com/dp/B07WY7TTL5/ref=nosim?tag=americanapparel.com-20&th=1&psc=1'
 ```
+3.    Additionally you should set a cron job to run the script at a specific time.
 4.    Run the script
 
 ## Explanation
