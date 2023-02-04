@@ -5,6 +5,7 @@ from selenium.webdriver.firefox.options import Options
 
 
 def check_product_availability():
+    # You need to change the url to the product you want
     product_url = 'https://www.amazon.com/dp/B07WY7TTL5/ref=nosim?tag=americanapparel.com-20&th=1&psc=1'
     if "amazon" not in product_url:
         print("Invalid URL. Please enter an Amazon URL.")
