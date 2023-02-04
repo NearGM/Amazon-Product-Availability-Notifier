@@ -11,7 +11,12 @@ This script checks the availability of a product on Amazon and sends notificatio
 
 1.    Clone the repository
 2.    Replace the product URL in amazon-product-availability-notifier.py
-3.    Run the script
+```sh
+def check_product_availability():
+    # You need to change the url to the product you want 
+    product_url = 'https://www.amazon.com/dp/B07WY7TTL5/ref=nosim?tag=americanapparel.com-20&th=1&psc=1'
+```
+4.    Run the script
 
 ## Explanation
 
